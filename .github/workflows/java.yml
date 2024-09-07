@@ -27,3 +27,4 @@ jobs:
           distribution: 'temurin'
           java-version: ${{ matrix.java }}
       - run: javac -d codes/java/build codes/java/**/*.java
+[![Java](https://github.com/krahets/hello-algo/actions/workflows/java.yml/badge.svg?branch=main&event=check_suite)](https://github.com/krahets/hello-algo/actions/workflows/java.yml)
